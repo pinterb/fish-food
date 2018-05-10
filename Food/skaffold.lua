@@ -1,5 +1,5 @@
 local name = "skaffold"
-local version = "0.4.0"
+local version = "0.5.0"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/GoogleContainerTools/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-darwin-amd64",
             -- shasum of the release archive
-            sha256 = "ff07b9b9520ebaf49cbe272a5719e208e3efd1d4c4fed6bbf40a582ed0d39558",
+            sha256 = "61288c92042d65f2bd7fe31f0d7b482986baadab62dbd26c00dd7de1fdff6c0f",
             resources = {
                 {
                     path = name,
@@ -26,7 +26,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/GoogleContainerTools/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-linux-amd64",
             -- shasum of the release archive
-            sha256 = "8cbc63500f3501b72c7c88bafa94f2120aa05aedc1488e50cca68e33cb57338b",
+            sha256 = "7875a84fa3fe10088769daac0814d91a8744192622d02d8c203f7a503413d1ff",
             resources = {
                 {
                     path = name,
@@ -38,12 +38,12 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/GoogleContainerTools/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-windows-amd64.exe",
+            url = "https://github.com/GoogleContainerTools/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-windows-amd64.exe"
             -- shasum of the release archive
-            sha256 = "377a29a8eb322dc5cb5e595f0a99df083b7902b31288e0a02ac36d6e10763f2a",
+            sha256 = "53b8156e4e0e6275ac7055a509de130f2f45009c3e6886a871fb51dab8e026db",
             resources = {
                 {
-                    path = name .. ".exe",
+                    path = name .. "-windows-amd64.exe",
                     installpath = "bin\\" .. name .. ".exe"
                 }
             }
