@@ -1,5 +1,5 @@
 local name = "skaffold"
-local version = "0.5.0"
+local version = "0.9.0"
 
 food = {
     name = name,
