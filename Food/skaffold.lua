@@ -26,7 +26,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/GoogleContainerTools/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-linux-amd64",
             -- shasum of the release archive
-            sha256 = "7875a84fa3fe10088769daac0814d91a8744192622d02d8c203f7a503413d1ff",
+            sha256 = "2f5ba2b21791b134193faeb6931d831807f540bd37f088a66cbd33822026d9ac",
             resources = {
                 {
                     path = name .. "-linux-amd64",
