@@ -24,7 +24,7 @@ food = {
             arch = "amd64",
             url = "https://static.rust-lang.org/rustup/" .. name .. "-init.sh",
             -- shasum of the release archive
-            sha256 = "22aa1f7f4c4b9be99a9d7e13ad45b2aec6714165a0578dd5ef81ca11f55ea24e",
+            sha256 = "0cb6ce30f81cfedeeac4c6b72d92859aa7652bdd3aa4759858a192129e8f6e1f",
             resources = {
                 {
                     path = name .. "-init.sh",
